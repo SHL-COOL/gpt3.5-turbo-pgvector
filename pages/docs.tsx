@@ -90,7 +90,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
               onChange={(e) => setUserQ(e.target.value)}
               rows={4}
               className="w-full p-2 my-5 border rounded-md shadow-md bg-neutral border-neutral-focus "
-              placeholder={"e.g. What are edge functions?"}
+              placeholder={"IoTCenter3D是什么?"}
             />
 
             {!loading && (
@@ -188,7 +188,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
           </ResizablePanel>
 
           <div className="max-w-xl text-xs">
-            <p><sup>*</sup>服务将很快关闭，事实上，我目前只接受过以下文档方面的培训：</p>
+            <p><sup>*</sup>服务将很快关闭，事实上，我目前只接受过以下文档的培训：</p>
             <ul>
               <li><a target="_blank" href="">https://iot3d.docs.ganweicloud.com</a></li>
             </ul>
