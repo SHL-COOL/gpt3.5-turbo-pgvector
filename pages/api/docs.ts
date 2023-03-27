@@ -35,7 +35,7 @@ const handler = async (req: Request): Promise<Response> => {
     return new Response("No prompt in the request", { status: 400 });
   }
 
-  const query = question;
+  const query = question+"请用中文回答";
 
   // OpenAI recommends replacing newlines with spaces for best results
   const input = query.replace(/\n/g, " ");
